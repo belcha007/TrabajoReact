@@ -1,4 +1,12 @@
-//import './App.css'; (este import no se si se elimana, el apunte complemetario 1 pag8)
+import './App.css';
+import './componentes/styles/components/layout/Header.css';
+import './componentes/styles/components/layout/Footer.css';
+import './componentes/styles/components/layout/Nav.css';
+
+import './componentes/styles/components/pages/HomePage.css';
+import './componentes/styles/components/pages/NosotrosPage.css';
+import './componentes/styles/components/pages/contactoPages.css';
+
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 import Header from './componentes/layout/Header';
@@ -13,8 +21,7 @@ import NovedadesPage from './componentes/pages/NovedadesPage';
 function App() {
   return (
     <div className="App">
-      <Header />
-
+      <Header></Header>
       <BrowserRouter>
         <Nav />
         <Routes>

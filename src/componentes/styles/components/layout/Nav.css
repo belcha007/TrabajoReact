@@ -1,0 +1,27 @@
+nav{
+    background-color: rgb(61, 61, 61)y;
+    margin-bottom: 2em;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%; 
+}
+
+nav ul li a{
+    color: rgb(159, 161, 32);
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2em 0.4em;
+    display: block;
+    position: relative;
+}
+
+nav ul li a:hover {
+    background-color: rgb(17, 17, 37);
+
+}
+/*Revisar no levanta el boton activo*/
+nav ul li a.activo {
+    background-color: ghostwhite;
+}
