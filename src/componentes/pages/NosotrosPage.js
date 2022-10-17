@@ -11,7 +11,7 @@ const NosotrosPage = (props) => {
         <h2>Staff</h2>
         <div className="personas">
             <div className="persona">
-                <img src="front/public/staff/Fattony.JPG" alt='Fattony'/>
+                <img src="src/image/Fattony.JPG" alt='Fattony'/>
                 <h5>Marion Gordon Tony</h5>
                 <h6>Gerente General</h6>
                 <p>Biografia del gordo tony</p>
